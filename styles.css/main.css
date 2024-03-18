@@ -68,7 +68,7 @@
 /* Start of first container */
 .intro {
     height: 100vh;
-    background-image: url('/assets/images/plane-bg.png');
+    background-image: url('../assets/images/plane-bg.png');
 }
 
 .introTop {
@@ -416,7 +416,7 @@ cursor: pointer;
 
 .aboutRight {
     width: 50%;
-    background-image: url('/assets/images/rectangle_30_copy.png');
+    background-image: url('../assets/images/rectangle_30_copy.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -492,7 +492,7 @@ cursor: pointer;
 
 /* Start of sixth container */
 .testimonals {
-    background-image: url('/assets/images/layer_6.png');
+    background-image: url('../assets/images/layer_6.png');
     padding-bottom: 10%;
     object-fit: cover;
     background-color: #32A96F;
