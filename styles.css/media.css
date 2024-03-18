@@ -1,0 +1,289 @@
+@media only screen and (min-width : 360px) and (max-width : 420px) {
+
+    /* Start of first container */
+    .intro {
+        font-size: 0.6em;
+        padding: 0 15%;
+    }
+
+    .vanish {
+        display: none;
+    }
+
+    .introTopContainer :nth-child(1) {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    .introMiddleContainer {
+        width: 100%;
+    }
+
+
+    .introMiddleContainer a {
+        font-size: 0.4em;
+    }
+
+    .introBottom {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .introBottomSecondContainer input {
+        padding: 10px;
+    }
+
+    .introBottomFirst,
+    .introBottomSecond {
+        width: 100%;
+    }
+
+   .in                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               of first container */
+
+    /* Start of second container */
+    .denso {
+        font-size: 1em;
+        padding: 0 15%;
+        margin: 20% 0;
+    }
+    .denso {
+        padding: 5% 15%;
+        margin: 10% 0;
+    }
+
+    .denso h1 {
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .denso p {
+        text-align: justify;
+        line-height: normal;
+        font-size: 0.6em;
+    }
+
+    /* End of second container */
+
+    /* Start of third container*/
+    .services {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.6em;
+        padding: 0 15%;
+    }
+
+    .servicesLowerText {
+        display: none;
+    }
+
+    .servicesLower {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .servicesLowerIcons {
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .icons {
+        padding: 15px 20px;
+        border-radius: 10px;
+        width: 20px;
+        height: 10px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icons img {
+        width: 20px;
+    }
+
+    .change {
+        padding: 20px;
+    }
+
+    /* End of third container */
+
+    /* Start of fourth container */
+    .about {
+        flex-direction: column;
+        font-size: 0.6em;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aboutLeft {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding: 7%;
+    }
+
+    .aboutLeft p {
+        padding: 0 7%;
+        text-align: justify;
+    }
+
+    .aboutLeftAddition {
+        display: block;
+    }
+
+    .aboutLeftAddition img {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    /* End of fourth container */
+
+    /* Start of fifth container */
+    .latest {
+        font-size: 0.6em;
+    }
+
+    .latestMain {
+        flex-direction: column;
+    }
+
+    .latestMain p {
+        text-align: justify;
+    }
+
+    .latestMain :nth-child(2) {
+        margin: 20px 0;
+    }
+
+    .latestCards {
+        background-image: linear-gradient(to bottom, #9ebfc9 30%, #a3b2b8 51%, #6a767a 100%);
+        border-radius: 20px;
+        box-shadow: 10px 10px 30px black;
+    }
+
+    .latestCards p {
+        color: black;
+    }
+
+    .read {
+        padding: 10px 20px;
+        font-size: 0.6em;
+    }
+
+
+
+    /* End of fifth container */
+
+    /* Start of sixth container */
+    .testimonals {
+        font-size: 0.6em;
+        background-image: linear-gradient(to bottom, #719aa7 30%, #66757a 51%, #434849 100%);
+    }
+
+    .testimonalMainMiddle :nth-child(1) {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .testimonalMainLeft,
+    .testimonalMainRight {
+        display: none;
+    }
+
+    .testimonalMainMiddle {
+        flex-direction: column;
+    }
+
+    .consectetur {
+        border-radius: 20px;
+        background-color: rgb(216, 222, 223);
+        width: 100%;
+    }
+
+    .consecteturUpper p {
+        font-size: 2em;
+        margin-left: 5px;
+        color: white;
+    }
+
+    /* End of sixth container */
+
+    /* Start of seventh container */
+    .request {
+        font-size: 0.6em;
+    }
+
+    .request form {
+        width: 90%;
+        padding: 0 10%;
+        margin: 5% 0;
+    }
+
+    .requestBtn {
+        padding: 10px 20px;
+    }
+
+    /* End of seventh container */
+
+    /* Start of eighth container */
+    .footer {
+        font-size: 0.6em;
+    }
+
+    .demo img {
+        width: 10px;
+    }
+
+    .footerMiddle {
+        flex-direction: column;
+    }
+
+    .footerMiddleLeft,
+    .footerMiddleRight {
+        width: 100%;
+        padding: 0 15%;
+        border: none;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footerMiddleLeftFirst {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footerMiddleLeftSecond p {
+        text-align: justify;
+    }
+
+    .footerMiddleLeftSecond {
+        padding-right: 0;
+
+    }
+
+    .footerMiddleRight {
+        text-align: center;
+    }
+
+    .footerMiddleRightFirst,
+    .footerMiddleRightSecond {
+        border-right: 2px solid white;
+    }
+
+    .footerMiddleRightSecond {
+        margin: 0 5px;
+    }
+
+    /* End of eighth container */
+}
